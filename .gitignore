@@ -1,8 +1,31 @@
 
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environment
+.venv/
 venv/
+
+# Environment secrets
 .env
-*.log
-.DS_Store
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# IDE
 .vscode/
+
+# Logs
+*.log
+
+# Large model training checkpoints
+results/distilbert_*/
+models/distilbert_*/checkpoint-*/
+
+# Temporary files
+.DS_Store

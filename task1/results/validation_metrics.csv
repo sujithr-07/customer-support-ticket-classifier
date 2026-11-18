@@ -1,3 +1,0 @@
-,accuracy,macro_f1,best_params
-category,1.0,1.0,"{'classifier__C': 0.1, 'tfidf__ngram_range': (1, 1)}"
-priority,1.0,1.0,"{'classifier__C': 0.1, 'tfidf__ngram_range': (1, 1)}"

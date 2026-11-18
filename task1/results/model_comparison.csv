@@ -1,9 +1,0 @@
-Task,Model,Split,Accuracy,Macro F1,Training time (seconds),Inference time (ms/ticket)
-category,DistilBERT,Test,1.0,1.0,149.13018079986796,55.579561330378056
-category,TF-IDF + Logistic Regression,Test,1.0,1.0,,0.03473199903964996
-category,DistilBERT,Validation,1.0,1.0,149.13018079986796,55.579561330378056
-category,TF-IDF + Logistic Regression,Validation,1.0,1.0,,0.18812532847126323
-priority,DistilBERT,Test,1.0,1.0,150.27079669991508,50.19225333506863
-priority,TF-IDF + Logistic Regression,Test,1.0,1.0,,0.03362133478124936
-priority,DistilBERT,Validation,1.0,1.0,150.27079669991508,50.19225333506863
-priority,TF-IDF + Logistic Regression,Validation,1.0,1.0,,0.03683466464281082
