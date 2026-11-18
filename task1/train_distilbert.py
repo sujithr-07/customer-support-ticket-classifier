@@ -355,3 +355,4 @@ print("=" * 70)
 print(comparison.to_string(index=False))
 
 print("\nComparison saved to results/model_comparison.csv")
+cls

@@ -1,3 +1,5 @@
+# TASK - 1
+
 ## Dataset Description
 
 ### Project Overview
@@ -102,7 +104,6 @@ Example of possible explanations:
 
 These are illustrative explanations, not measured errors from your dataset.
 
-
 # TASK - 3
 
 ### Deployment Decision
@@ -112,3 +113,148 @@ These are illustrative explanations, not measured errors from your dataset.
 3. DistilBERT requires more training time, memory, and computational resources, especially when deployed without a GPU.
 4. If both models achieve similar validation and test Macro F1 scores, Logistic Regression is the more cost-effective deployment choice.
 5. The final model will be selected based on test performance, inference speed, deployment cost, and classification reliability.
+
+
+# TASK - 4
+
+## FastAPI – Support Ticket Classification
+
+### Overview
+
+A REST API built using FastAPI that predicts the category and priority of customer support tickets using trained machine learning models.
+
+### API Endpoints
+
+| Method | Endpoint     | Description                   |
+| ------ | ------------ | ----------------------------- |
+| GET    | `/health`  | Check API health              |
+| POST   | `/predict` | Predict category and priority |
+| GET    | `/docs`    | Interactive API documentation |
+
+### Installation
+
+Install dependencies:
+
+**bash**
+
+```
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+From the project root directory:
+
+**bash**
+
+```
+uvicorn app.main:app --reload
+```
+
+API URL:
+
+`http://127.0.0.1:8000`
+
+Swagger documentation:
+
+`http://127.0.0.1:8000/docs`
+
+### Health Check
+
+Request:
+
+**bash**
+
+```
+curl http://127.0.0.1:8000/health
+```
+
+Example response:
+
+**json**
+
+```
+{
+  "status": "healthy",
+  "models_loaded": true
+}
+```
+
+### Prediction Request
+
+Endpoint:
+
+`POST /predict`
+
+Request body:
+
+**json**
+
+```
+{
+  "text": "I was charged twice for my order"
+}
+```
+
+Example response:
+
+**json**
+
+```
+{
+  "category": "Billing",
+  "priority": "High",
+  "confidence": 0.93
+}
+```
+
+The prediction values are illustrative. Actual predictions depend on the trained models.
+
+### Input Validation
+
+* Empty ticket descriptions are rejected.
+* Whitespace-only descriptions are rejected.
+* Missing text fields are rejected.
+* Invalid requests return HTTP 422.
+
+### Model Loading
+
+The category and priority models are loaded once during application startup using FastAPI lifespan management.
+
+The API uses Joblib to load the trained TF-IDF and Logistic Regression pipelines.
+
+### Automated Testing
+
+Run:
+
+**bash**
+
+```
+pytest tests/test_api.py -v
+```
+
+The test suite checks:
+
+* Health endpoint functionality.
+* Successful ticket prediction.
+* Empty text validation.
+* Whitespace validation.
+* Missing input validation.
+* Confidence score range.
+
+### Technology Stack
+
+* Python
+* FastAPI
+* Pydantic
+* Scikit-learn
+* Logistic Regression
+* TF-IDF
+* Joblib
+* Pytest
+
+### Deployment
+
+The API can be deployed using Uvicorn on a suitable Python hosting environment.
+
+The trained model files must be available in the `models/` directory before starting the application.
