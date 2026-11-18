@@ -1,6 +1,9 @@
 
 import pandas as pd
+import random
 from sklearn.model_selection import train_test_split
+
+random.seed(42)
 
 categories = [
     "Technical Support",
@@ -50,33 +53,46 @@ problems = {
     ]
 }
 
-# Generate 500 synthetic tickets
+priority_messages = {
+    "Low": "please review this when convenient",
+    "Medium": "please assist with this issue",
+    "High": "this issue is urgent and needs attention",
+    "Critical": "service is unavailable and immediate action is required"
+}
+
 records = []
+
+ticket_id = 1
 
 for category in categories:
     for priority in priorities:
         for i in range(25):
-            problem = problems[category][i % 5]
+
+            problem = random.choice(problems[category])
+
+            text = (
+                f"customer reports {problem}. "
+                f"{priority_messages[priority]}. "
+                f"additional ticket reference {ticket_id}."
+            )
 
             records.append({
-                "text": (
-                    f"customer reports that {problem}. "
-                    f"please investigate support request {i + 1:03d} "
-                    f"for {category.lower()}."
-                ),
+                "text": text,
                 "category": category,
                 "priority": priority
             })
+
+            ticket_id += 1
 
 df = pd.DataFrame(records)
 
 # Clean text
 df["text"] = df["text"].str.lower().str.strip()
 
-# Remove duplicate tickets
+# Remove duplicates
 df = df.drop_duplicates(subset=["text"]).reset_index(drop=True)
 
-# Check class balance
+# Check balance
 print("Dataset shape:", df.shape)
 print("\nCategory counts:")
 print(df["category"].value_counts())
@@ -84,34 +100,32 @@ print(df["category"].value_counts())
 print("\nPriority counts:")
 print(df["priority"].value_counts())
 
-# Stratify on the combination of both labels
-strata = df["category"] + "_" + df["priority"]
+# Stratify on category and priority combination
+df["strata"] = df["category"] + "_" + df["priority"]
 
-# 70% training, 30% temporary
 train, temp = train_test_split(
     df,
     test_size=0.30,
     random_state=42,
-    stratify=strata
+    stratify=df["strata"]
 )
-
-# Split remaining 30% equally into validation and test
-temp_strata = temp["category"] + "_" + temp["priority"]
 
 validation, test = train_test_split(
     temp,
     test_size=0.50,
     random_state=42,
-    stratify=temp_strata
+    stratify=temp["strata"]
 )
 
-# Save datasets
+# Remove helper column
+for dataset in [train, validation, test]:
+    dataset.drop(columns=["strata"], inplace=True)
+
 train.to_csv("train.csv", index=False)
 validation.to_csv("validation.csv", index=False)
 test.to_csv("test.csv", index=False)
 
-print("\nSplit sizes:")
+print("\nDataset split completed!")
 print("Train:", len(train))
 print("Validation:", len(validation))
 print("Test:", len(test))
-print("Total:", len(train) + len(validation) + len(test))

@@ -1,20 +1,76 @@
 text,category,priority
-customer reports that requesting product availability. please investigate support request 007 for product inquiry.,Product Inquiry,Low
-customer reports that software is running slowly. please investigate support request 022 for technical support.,Technical Support,Low
-customer reports that package arrived damaged. please investigate support request 015 for shipping.,Shipping,Low
-customer reports that wrong item was delivered. please investigate support request 004 for shipping.,Shipping,Low
-customer reports that unable to connect to the server. please investigate support request 003 for technical support.,Technical Support,Low
-customer reports that wrong item was delivered. please investigate support request 014 for shipping.,Shipping,Low
-customer reports that unable to reset password. please investigate support request 011 for account access.,Account Access,Low
-customer reports that payment was not processed. please investigate support request 003 for billing.,Billing,Low
-customer reports that verification code is not received. please investigate support request 004 for account access.,Account Access,Low
-customer reports that duplicate payment detected. please investigate support request 010 for billing.,Billing,Low
-customer reports that refund has not been received. please investigate support request 019 for billing.,Billing,Low
-customer reports that requesting product availability. please investigate support request 017 for product inquiry.,Product Inquiry,Low
-customer reports that unable to connect to the server. please investigate support request 008 for technical support.,Technical Support,Low
-customer reports that verification code is not received. please investigate support request 024 for account access.,Account Access,Low
-customer reports that payment was not processed. please investigate support request 023 for billing.,Billing,Low
-customer reports that requesting product availability. please investigate support request 012 for product inquiry.,Product Inquiry,Low
-customer reports that requesting product details. please investigate support request 004 for product inquiry.,Product Inquiry,Low
-customer reports that order delivery is delayed. please investigate support request 016 for shipping.,Shipping,Low
-customer reports that unable to update account details. please investigate support request 025 for account access.,Account Access,Low
+customer reports unable to reset password. please assist with this issue. additional ticket reference 234.,Account Access,Medium
+customer reports duplicate payment detected. service is unavailable and immediate action is required. additional ticket reference 178.,Billing,Critical
+customer reports feature is not working correctly. service is unavailable and immediate action is required. additional ticket reference 95.,Technical Support,Critical
+customer reports incorrect amount charged. this issue is urgent and needs attention. additional ticket reference 154.,Billing,High
+customer reports package arrived damaged. service is unavailable and immediate action is required. additional ticket reference 381.,Shipping,Critical
+customer reports incorrect amount charged. please assist with this issue. additional ticket reference 134.,Billing,Medium
+customer reports package has not arrived. service is unavailable and immediate action is required. additional ticket reference 394.,Shipping,Critical
+customer reports unable to update account details. please assist with this issue. additional ticket reference 248.,Account Access,Medium
+customer reports feature is not working correctly. please assist with this issue. additional ticket reference 45.,Technical Support,Medium
+customer reports duplicate payment detected. please assist with this issue. additional ticket reference 146.,Billing,Medium
+customer reports tracking information is incorrect. this issue is urgent and needs attention. additional ticket reference 362.,Shipping,High
+customer reports software is running slowly. please assist with this issue. additional ticket reference 29.,Technical Support,Medium
+customer reports order delivery is delayed. service is unavailable and immediate action is required. additional ticket reference 389.,Shipping,Critical
+customer reports application crashes during startup. please assist with this issue. additional ticket reference 44.,Technical Support,Medium
+customer reports software is running slowly. service is unavailable and immediate action is required. additional ticket reference 100.,Technical Support,Critical
+customer reports need warranty information. service is unavailable and immediate action is required. additional ticket reference 494.,Product Inquiry,Critical
+customer reports unable to reset password. please review this when convenient. additional ticket reference 202.,Account Access,Low
+customer reports need warranty information. please assist with this issue. additional ticket reference 441.,Product Inquiry,Medium
+customer reports need warranty information. please review this when convenient. additional ticket reference 420.,Product Inquiry,Low
+customer reports duplicate payment detected. please review this when convenient. additional ticket reference 124.,Billing,Low
+customer reports package arrived damaged. service is unavailable and immediate action is required. additional ticket reference 376.,Shipping,Critical
+customer reports invoice has missing details. service is unavailable and immediate action is required. additional ticket reference 180.,Billing,Critical
+customer reports duplicate payment detected. please assist with this issue. additional ticket reference 147.,Billing,Medium
+customer reports account login is failing. please review this when convenient. additional ticket reference 218.,Account Access,Low
+customer reports package arrived damaged. please assist with this issue. additional ticket reference 329.,Shipping,Medium
+customer reports feature is not working correctly. please assist with this issue. additional ticket reference 30.,Technical Support,Medium
+customer reports need assistance choosing a product. this issue is urgent and needs attention. additional ticket reference 453.,Product Inquiry,High
+customer reports unable to update account details. please review this when convenient. additional ticket reference 216.,Account Access,Low
+customer reports need warranty information. please assist with this issue. additional ticket reference 428.,Product Inquiry,Medium
+customer reports requesting product availability. please review this when convenient. additional ticket reference 402.,Product Inquiry,Low
+customer reports requesting product details. this issue is urgent and needs attention. additional ticket reference 472.,Product Inquiry,High
+customer reports tracking information is incorrect. please review this when convenient. additional ticket reference 310.,Shipping,Low
+customer reports software is running slowly. please review this when convenient. additional ticket reference 16.,Technical Support,Low
+customer reports incorrect amount charged. this issue is urgent and needs attention. additional ticket reference 169.,Billing,High
+customer reports application crashes during startup. please review this when convenient. additional ticket reference 19.,Technical Support,Low
+customer reports payment was not processed. please assist with this issue. additional ticket reference 145.,Billing,Medium
+customer reports requesting product availability. please review this when convenient. additional ticket reference 425.,Product Inquiry,Low
+customer reports feature is not working correctly. please review this when convenient. additional ticket reference 23.,Technical Support,Low
+customer reports account login is failing. please review this when convenient. additional ticket reference 212.,Account Access,Low
+customer reports tracking information is incorrect. please assist with this issue. additional ticket reference 332.,Shipping,Medium
+customer reports duplicate payment detected. service is unavailable and immediate action is required. additional ticket reference 196.,Billing,Critical
+customer reports package has not arrived. this issue is urgent and needs attention. additional ticket reference 356.,Shipping,High
+customer reports duplicate payment detected. this issue is urgent and needs attention. additional ticket reference 170.,Billing,High
+customer reports package arrived damaged. please review this when convenient. additional ticket reference 324.,Shipping,Low
+customer reports requesting product details. service is unavailable and immediate action is required. additional ticket reference 496.,Product Inquiry,Critical
+customer reports account login is failing. this issue is urgent and needs attention. additional ticket reference 254.,Account Access,High
+customer reports invoice has missing details. please review this when convenient. additional ticket reference 101.,Billing,Low
+customer reports need assistance choosing a product. this issue is urgent and needs attention. additional ticket reference 470.,Product Inquiry,High
+customer reports duplicate payment detected. service is unavailable and immediate action is required. additional ticket reference 187.,Billing,Critical
+customer reports verification code is not received. please assist with this issue. additional ticket reference 232.,Account Access,Medium
+customer reports unable to reset password. this issue is urgent and needs attention. additional ticket reference 264.,Account Access,High
+customer reports software is running slowly. this issue is urgent and needs attention. additional ticket reference 74.,Technical Support,High
+customer reports unable to reset password. this issue is urgent and needs attention. additional ticket reference 252.,Account Access,High
+customer reports receiving an unexpected system error. service is unavailable and immediate action is required. additional ticket reference 92.,Technical Support,Critical
+customer reports duplicate payment detected. please review this when convenient. additional ticket reference 107.,Billing,Low
+customer reports need warranty information. please assist with this issue. additional ticket reference 431.,Product Inquiry,Medium
+customer reports package has not arrived. this issue is urgent and needs attention. additional ticket reference 372.,Shipping,High
+customer reports application crashes during startup. this issue is urgent and needs attention. additional ticket reference 60.,Technical Support,High
+customer reports incorrect amount charged. this issue is urgent and needs attention. additional ticket reference 167.,Billing,High
+customer reports unable to update account details. service is unavailable and immediate action is required. additional ticket reference 277.,Account Access,Critical
+customer reports need assistance choosing a product. service is unavailable and immediate action is required. additional ticket reference 486.,Product Inquiry,Critical
+customer reports need product specifications. service is unavailable and immediate action is required. additional ticket reference 487.,Product Inquiry,Critical
+customer reports need product specifications. this issue is urgent and needs attention. additional ticket reference 451.,Product Inquiry,High
+customer reports duplicate payment detected. please review this when convenient. additional ticket reference 112.,Billing,Low
+customer reports package arrived damaged. please review this when convenient. additional ticket reference 308.,Shipping,Low
+customer reports software is running slowly. this issue is urgent and needs attention. additional ticket reference 67.,Technical Support,High
+customer reports software is running slowly. please review this when convenient. additional ticket reference 15.,Technical Support,Low
+customer reports package has not arrived. please assist with this issue. additional ticket reference 328.,Shipping,Medium
+customer reports wrong item was delivered. please review this when convenient. additional ticket reference 318.,Shipping,Low
+customer reports account login is failing. service is unavailable and immediate action is required. additional ticket reference 287.,Account Access,Critical
+customer reports unable to update account details. service is unavailable and immediate action is required. additional ticket reference 285.,Account Access,Critical
+customer reports requesting product availability. please review this when convenient. additional ticket reference 417.,Product Inquiry,Low
+customer reports verification code is not received. please assist with this issue. additional ticket reference 226.,Account Access,Medium
+customer reports order delivery is delayed. this issue is urgent and needs attention. additional ticket reference 367.,Shipping,High
+customer reports order delivery is delayed. please assist with this issue. additional ticket reference 343.,Shipping,Medium
