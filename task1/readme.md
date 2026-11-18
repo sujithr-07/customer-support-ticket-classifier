@@ -1,4 +1,3 @@
-
 ## Dataset Description
 
 ### Project Overview
@@ -77,3 +76,39 @@ A fixed random seed of 42 was used for reproducibility.
 * `test.csv` – Testing dataset.
 
 The resulting datasets will be used to train, tune, and evaluate the support ticket classification model.
+
+# **TASK - 2**
+
+## Identify 10 most confusing examples
+
+The script saves:
+
+* `<span data-d-streaming-word="">results/category_confusing_examples.csv</span>`
+* `<span data-d-streaming-word="">results/priority_confusing_examples.csv</span>`
+
+These examples are selected based on the lowest probability assigned to the actual class.
+
+Add a short explanation for each example after reviewing the CSV files.
+
+Example of possible explanations:
+
+| Confusion                           | Possible reason                                              |
+| ----------------------------------- | ------------------------------------------------------------ |
+| Billing → Account Access           | Both mention account-related payments                        |
+| Shipping → Product Inquiry         | Both mention product delivery                                |
+| Technical Support → Account Access | Login problems can be technical issues                       |
+| High → Critical                    | Similar urgency-related language                             |
+| Medium → High                      | Customer describes an unresolved issue without clear urgency |
+
+These are illustrative explanations, not measured errors from your dataset.
+
+
+# TASK - 3
+
+### Deployment Decision
+
+1. DistilBERT can capture contextual information in customer support tickets and may perform better when ticket descriptions contain complex language.
+2. TF-IDF with Logistic Regression provides a lightweight solution with faster inference and lower computational requirements.
+3. DistilBERT requires more training time, memory, and computational resources, especially when deployed without a GPU.
+4. If both models achieve similar validation and test Macro F1 scores, Logistic Regression is the more cost-effective deployment choice.
+5. The final model will be selected based on test performance, inference speed, deployment cost, and classification reliability.
