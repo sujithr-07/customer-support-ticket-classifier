@@ -1,0 +1,88 @@
+text,category,priority
+customer reports that unable to reset password. please investigate support request 006 for account access.,Account Access,Low
+customer reports that verification code is not received. please investigate support request 014 for account access.,Account Access,Low
+customer reports that application crashes during startup. please investigate support request 016 for technical support.,Technical Support,Low
+customer reports that unable to connect to the server. please investigate support request 023 for technical support.,Technical Support,Low
+customer reports that package has not arrived. please investigate support request 002 for shipping.,Shipping,Low
+customer reports that unable to connect to the server. please investigate support request 018 for technical support.,Technical Support,Low
+customer reports that requesting product availability. please investigate support request 022 for product inquiry.,Product Inquiry,Low
+customer reports that incorrect amount charged. please investigate support request 001 for billing.,Billing,Low
+customer reports that need assistance choosing a product. please investigate support request 020 for product inquiry.,Product Inquiry,Low
+customer reports that requesting product details. please investigate support request 019 for product inquiry.,Product Inquiry,Low
+customer reports that feature is not working correctly. please investigate support request 014 for technical support.,Technical Support,Low
+customer reports that refund has not been received. please investigate support request 014 for billing.,Billing,Low
+customer reports that software is running slowly. please investigate support request 007 for technical support.,Technical Support,Low
+customer reports that need product specifications. please investigate support request 006 for product inquiry.,Product Inquiry,Low
+customer reports that tracking information is incorrect. please investigate support request 013 for shipping.,Shipping,Low
+customer reports that need product specifications. please investigate support request 021 for product inquiry.,Product Inquiry,Low
+customer reports that incorrect amount charged. please investigate support request 006 for billing.,Billing,Low
+customer reports that receiving an unexpected system error. please investigate support request 015 for technical support.,Technical Support,Low
+customer reports that need assistance choosing a product. please investigate support request 010 for product inquiry.,Product Inquiry,Low
+customer reports that requesting product details. please investigate support request 009 for product inquiry.,Product Inquiry,Low
+customer reports that receiving an unexpected system error. please investigate support request 025 for technical support.,Technical Support,Low
+customer reports that package arrived damaged. please investigate support request 010 for shipping.,Shipping,Low
+customer reports that account login is failing. please investigate support request 012 for account access.,Account Access,Low
+customer reports that invoice has missing details. please investigate support request 017 for billing.,Billing,Low
+customer reports that incorrect amount charged. please investigate support request 011 for billing.,Billing,Low
+customer reports that account has been locked. please investigate support request 003 for account access.,Account Access,Low
+customer reports that requesting product availability. please investigate support request 002 for product inquiry.,Product Inquiry,Low
+customer reports that receiving an unexpected system error. please investigate support request 010 for technical support.,Technical Support,Low
+customer reports that invoice has missing details. please investigate support request 007 for billing.,Billing,Low
+customer reports that order delivery is delayed. please investigate support request 001 for shipping.,Shipping,Low
+customer reports that package has not arrived. please investigate support request 022 for shipping.,Shipping,Low
+customer reports that feature is not working correctly. please investigate support request 004 for technical support.,Technical Support,Low
+customer reports that refund has not been received. please investigate support request 024 for billing.,Billing,Low
+customer reports that order delivery is delayed. please investigate support request 011 for shipping.,Shipping,Low
+customer reports that feature is not working correctly. please investigate support request 009 for technical support.,Technical Support,Low
+customer reports that package has not arrived. please investigate support request 017 for shipping.,Shipping,Low
+customer reports that unable to reset password. please investigate support request 001 for account access.,Account Access,Low
+customer reports that tracking information is incorrect. please investigate support request 003 for shipping.,Shipping,Low
+customer reports that order delivery is delayed. please investigate support request 006 for shipping.,Shipping,Low
+customer reports that software is running slowly. please investigate support request 012 for technical support.,Technical Support,Low
+customer reports that package arrived damaged. please investigate support request 005 for shipping.,Shipping,Low
+customer reports that software is running slowly. please investigate support request 002 for technical support.,Technical Support,Low
+customer reports that feature is not working correctly. please investigate support request 024 for technical support.,Technical Support,Low
+customer reports that payment was not processed. please investigate support request 018 for billing.,Billing,Low
+customer reports that need product specifications. please investigate support request 011 for product inquiry.,Product Inquiry,Low
+customer reports that duplicate payment detected. please investigate support request 025 for billing.,Billing,Low
+customer reports that package arrived damaged. please investigate support request 025 for shipping.,Shipping,Low
+customer reports that unable to reset password. please investigate support request 016 for account access.,Account Access,Low
+customer reports that invoice has missing details. please investigate support request 002 for billing.,Billing,Low
+customer reports that incorrect amount charged. please investigate support request 021 for billing.,Billing,Low
+customer reports that application crashes during startup. please investigate support request 021 for technical support.,Technical Support,Low
+customer reports that requesting product details. please investigate support request 024 for product inquiry.,Product Inquiry,Low
+customer reports that package arrived damaged. please investigate support request 020 for shipping.,Shipping,Low
+customer reports that package has not arrived. please investigate support request 012 for shipping.,Shipping,Low
+customer reports that unable to update account details. please investigate support request 010 for account access.,Account Access,Low
+customer reports that tracking information is incorrect. please investigate support request 018 for shipping.,Shipping,Low
+customer reports that need product specifications. please investigate support request 016 for product inquiry.,Product Inquiry,Low
+customer reports that unable to connect to the server. please investigate support request 013 for technical support.,Technical Support,Low
+customer reports that account login is failing. please investigate support request 017 for account access.,Account Access,Low
+customer reports that invoice has missing details. please investigate support request 022 for billing.,Billing,Low
+customer reports that duplicate payment detected. please investigate support request 020 for billing.,Billing,Low
+customer reports that application crashes during startup. please investigate support request 006 for technical support.,Technical Support,Low
+customer reports that package has not arrived. please investigate support request 007 for shipping.,Shipping,Low
+customer reports that account login is failing. please investigate support request 022 for account access.,Account Access,Low
+customer reports that refund has not been received. please investigate support request 009 for billing.,Billing,Low
+customer reports that account has been locked. please investigate support request 018 for account access.,Account Access,Low
+customer reports that need product specifications. please investigate support request 001 for product inquiry.,Product Inquiry,Low
+customer reports that refund has not been received. please investigate support request 004 for billing.,Billing,Low
+customer reports that need assistance choosing a product. please investigate support request 005 for product inquiry.,Product Inquiry,Low
+customer reports that application crashes during startup. please investigate support request 011 for technical support.,Technical Support,Low
+customer reports that payment was not processed. please investigate support request 008 for billing.,Billing,Low
+customer reports that account has been locked. please investigate support request 023 for account access.,Account Access,Low
+customer reports that need warranty information. please investigate support request 023 for product inquiry.,Product Inquiry,Low
+customer reports that wrong item was delivered. please investigate support request 009 for shipping.,Shipping,Low
+customer reports that need warranty information. please investigate support request 018 for product inquiry.,Product Inquiry,Low
+customer reports that need assistance choosing a product. please investigate support request 025 for product inquiry.,Product Inquiry,Low
+customer reports that unable to update account details. please investigate support request 005 for account access.,Account Access,Low
+customer reports that unable to update account details. please investigate support request 015 for account access.,Account Access,Low
+customer reports that payment was not processed. please investigate support request 013 for billing.,Billing,Low
+customer reports that account login is failing. please investigate support request 002 for account access.,Account Access,Low
+customer reports that verification code is not received. please investigate support request 009 for account access.,Account Access,Low
+customer reports that unable to update account details. please investigate support request 020 for account access.,Account Access,Low
+customer reports that account has been locked. please investigate support request 013 for account access.,Account Access,Low
+customer reports that receiving an unexpected system error. please investigate support request 020 for technical support.,Technical Support,Low
+customer reports that need warranty information. please investigate support request 013 for product inquiry.,Product Inquiry,Low
+customer reports that wrong item was delivered. please investigate support request 019 for shipping.,Shipping,Low
+customer reports that duplicate payment detected. please investigate support request 005 for billing.,Billing,Low

@@ -1,0 +1,20 @@
+text,category,priority
+customer reports that requesting product availability. please investigate support request 007 for product inquiry.,Product Inquiry,Low
+customer reports that software is running slowly. please investigate support request 022 for technical support.,Technical Support,Low
+customer reports that package arrived damaged. please investigate support request 015 for shipping.,Shipping,Low
+customer reports that wrong item was delivered. please investigate support request 004 for shipping.,Shipping,Low
+customer reports that unable to connect to the server. please investigate support request 003 for technical support.,Technical Support,Low
+customer reports that wrong item was delivered. please investigate support request 014 for shipping.,Shipping,Low
+customer reports that unable to reset password. please investigate support request 011 for account access.,Account Access,Low
+customer reports that payment was not processed. please investigate support request 003 for billing.,Billing,Low
+customer reports that verification code is not received. please investigate support request 004 for account access.,Account Access,Low
+customer reports that duplicate payment detected. please investigate support request 010 for billing.,Billing,Low
+customer reports that refund has not been received. please investigate support request 019 for billing.,Billing,Low
+customer reports that requesting product availability. please investigate support request 017 for product inquiry.,Product Inquiry,Low
+customer reports that unable to connect to the server. please investigate support request 008 for technical support.,Technical Support,Low
+customer reports that verification code is not received. please investigate support request 024 for account access.,Account Access,Low
+customer reports that payment was not processed. please investigate support request 023 for billing.,Billing,Low
+customer reports that requesting product availability. please investigate support request 012 for product inquiry.,Product Inquiry,Low
+customer reports that requesting product details. please investigate support request 004 for product inquiry.,Product Inquiry,Low
+customer reports that order delivery is delayed. please investigate support request 016 for shipping.,Shipping,Low
+customer reports that unable to update account details. please investigate support request 025 for account access.,Account Access,Low
